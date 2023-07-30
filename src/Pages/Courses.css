@@ -1,0 +1,70 @@
+.Courses{
+    position: relative;
+    width: 99%;
+    margin: 0 auto;
+    margin-top: -25px;
+}
+.courses-first{
+    width: 100%;
+    background-color: #713EEB;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 55px;
+    box-sizing: border-box;
+    border-left: 8px solid #000;
+
+    border-right: 8px solid #000;
+}
+.first-text{
+    text-align: start;
+    width: 40%;
+    color: #fff;
+    padding-top: 72px;
+}
+.first-text h4{
+    font-size: 46px;
+    font-weight: bold;
+    letter-spacing:.3px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.first-text p{
+    font-size: 16px;
+}
+.courses-btn{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color: #000;
+    margin-top: -20px;
+    color: #fff;
+}
+.courses-btn .ss {
+    color: #fff;
+    text-align: start;
+    padding-left: 87px;
+    padding-top: 100px;
+}
+.ss p{
+    width: 30%;
+}
+.si{
+    position: absolute;
+    width: 3px;
+    height: 300px;
+    background-color: #713EEB;
+    left: 65px;
+    top: 130px;
+}
+.si .fi-sp{
+    
+}
+.si .fi-sp2{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: 3px;
+}

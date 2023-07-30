@@ -1,0 +1,262 @@
+@font-face {
+    font-family: Hellix;
+    src: url(../../../font/Hellix-Bold.ttf);
+  }
+  @font-face {
+
+    font-family: MediumHellix;
+    src: url(../../../font/Hellix-Medium.ttf);
+}
+  @font-face {
+    font-family: Hellix-light;
+    src: url(../../../font/Hellix-Light.ttf);
+  }
+  @font-face {
+
+    font-family: semiHellix;
+    src: url(../../../font/Hellix-SemiBold.ttf);
+}
+@font-face {
+    font-family: Hellix-regular;
+    src: url(../../../font/Hellix-Regular.ttf);
+}
+.Privacy-policy{
+    position: relative;
+    width: 99%;
+    margin: auto;
+}
+.Privacy-content{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border-right: 8px solid #000;
+    box-sizing: border-box;
+}
+.privacy-left{
+    width: 25%;
+    height: 100vh;
+    float: left;
+    background-color: #000;
+    color: #fff;
+}
+.privacy-left h5{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: semiHellix;
+}
+.privacy-left p{
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+    font-family: Hellix-regular;
+}
+.Privacy-policy .Tabs{
+    position: relative;
+    top: 60px !important;
+}
+.Privacy-policy .tabs {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    /* height: 60px; */
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    border-radius: 34px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.Privacy-policy .tab{
+    display: block;
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    /* margin-bottom: 10px; */
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: MediumHellix;
+}
+.Privacy-policy .privacy-left button:disabled{
+    background-color: #6C40EC
+}
+.Privacy-policy .Privacy-right{
+    width: calc(100% - 560px);
+    float: left;
+    background-color: #fff;
+    height: 100vh;
+    
+}
+.Privacy-policy .content{
+    text-align: start;
+    padding-left: 55px;
+}
+.Privacy-policy .content .prg{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Hellix-light;
+}
+.Privacy-policy .title{
+    width: 94%;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+    padding-right: 50px;
+    font-family: MediumHellix;
+    margin-top: 105px;
+}
+.privacy-footer{
+    width: 100%;
+  height: 260px;
+  position: absolute;
+}
+
+
+@media(max-width:1350px){
+    .privacy-left h5 {
+   
+        font-size: 27px;
+       
+    }
+    .privacy-left p {
+    font-size: 16px;
+    padding-bottom: 40px;
+    }
+    .Privacy-policy .tab {
+   font-size: 17px;
+    }
+}
+@media(max-width:990px){
+    .privacy-left{
+        width: 35%;
+    }
+    .Privacy-policy .Privacy-right{
+        width: 65%;
+    }
+    .Privacy-policy .content .prg {
+     font-size: 16px;
+     width: 90%;
+    }
+    /* .Privacy-content{
+       height: 70vh;
+    }
+    .Privacy-policy .Privacy-right,
+    .Privacy-policy .privacy-left{
+        height: 70vh;
+    } */
+}
+@media(max-width:767px){
+    .my-account .account-content{
+        border-left: 8px solid #000;
+    }
+.Privacy-content{
+   display: flex;
+   position: relative;
+   min-height: 150vh;
+   border-left: 8px solid #000;
+}
+.privacy-left{
+    min-width: 100%;
+    height: 50vh;
+}
+.Privacy-policy .Privacy-right{
+    position: absolute;
+    top: 50vh;
+    width: 100%;
+    min-height: 70vh;
+    
+}
+.Privacy-policy .tab {
+    width: max-content;
+
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.Privacy-policy .content {
+    text-align: start;
+    padding-left: 30px;
+}   
+.Privacy-policy .tabs {
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:0 20px;
+}
+.Privacy-policy .Tabs {
+    position: relative;
+    top: 6px !important;
+}
+.Privacy-policy .title {
+margin-top: 0;
+}
+
+}
+@media(max-width:389px){
+    .privacy-left{
+        min-width: 100%;
+        height: 70vh;
+    }
+    .Privacy-policy .Privacy-right{
+        position: absolute;
+        top: 70vh;
+        width: 100%;
+        min-height: 70vh;
+        
+    }
+}
+@media(max-width:360px){
+    .privacy-left{
+        min-width: 100%;
+        height: 60vh;
+    }
+    .Privacy-policy .Privacy-right{
+        position: absolute;
+        top: 60vh;
+        width: 100%;
+        min-height: 70vh;
+        
+    }
+    .privacy-left p {
+        font-size: 16px;
+        padding-bottom: 25px;
+        width: 70%;
+    }
+}
+@media(max-width:280px){
+    .Privacy-content{
+        display: flex;
+        position: relative;
+        min-height: 200vh;
+        border-left: 8px solid #000;
+     }
+    .privacy-left{
+        min-width: 100%;
+        height: 80vh;
+    }
+    .Privacy-policy .Privacy-right{
+        position: absolute;
+        top: 80vh;
+        width: 100%;
+        min-height: 70vh;
+        
+    }
+}

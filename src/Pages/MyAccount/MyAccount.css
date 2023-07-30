@@ -1,0 +1,438 @@
+@font-face {
+    font-family: Hellix;
+    src: url(../../../font/Hellix-Bold.ttf);
+  }
+  @font-face {
+
+    font-family: MediumHellix;
+    src: url(../../../font/Hellix-Medium.ttf);
+}
+  @font-face {
+    font-family: Hellix-light;
+    src: url(../../../font/Hellix-Light.ttf);
+  }
+  @font-face {
+
+    font-family: semiHellix;
+    src: url(../../../font/Hellix-SemiBold.ttf);
+}
+@font-face {
+    font-family: Hellix-regular;
+    src: url(../../../font/Hellix-Regular.ttf);
+}
+.my-account {
+    position: relative;
+    width: 99%;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.my-account .account-content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border-right: 8px solid #000;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.my-account .account-left {
+    width: 25%;
+    height: 100vh;
+    float: left;
+    background-color: #000;
+    color: #fff;
+}
+
+.my-account .account-left h5 {
+    margin-top: 90px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    word-spacing: -10px;
+    color: #5A45EF;
+    text-align: center;
+    font-family: Hellix;
+    word-spacing: 0;
+}
+
+.my-account .account-left p {
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.my-account .tabs {
+    padding-top: 50px;
+}
+
+.my-account .tab {
+    display: block;
+    width: 50%;
+    padding: 15px;
+    margin: auto;
+    /* margin-bottom: 10px; */
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 17px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'MediumHellix';
+}
+
+.my-account .account-left button:disabled {
+    background-color: #5A45EF;
+}
+
+.my-account .account-right {
+    width: calc(100% - 560px);
+    float: left;
+    background-color: #fff;
+    height: 100vh;
+
+}
+
+.my-account .content {
+    text-align: start;
+    padding-left: 55px;
+}
+
+.my-account .content .prg {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.my-account .title2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 103px;
+    margin-bottom: 25px;
+    word-spacing: 0px;
+    font-family: Hellix;
+}
+
+.my-account .title {
+    width: 94%;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+    padding-right: 50px;
+    font-family: semiHellix;
+}
+
+.my-account .prg {
+    width: 300px;
+    text-align: start;
+    font-size: 20px !important;
+    line-height: 1 !important;
+    font-weight: 200;
+    float: left;
+    padding-top: 3px;
+    font-family: Hellix-light;
+    margin-top: 60px;
+}
+
+.my-account .acc-form {
+    width: calc(100% - 300px);
+    padding-right: 30px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 75px;
+    box-sizing: border-box;
+    margin-top: 35px;
+}
+
+.my-account .acc-form label {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-family: Hellix-regular;
+}
+
+.my-account .inputs-flex input {
+    display: block;
+}
+
+.my-account .inputs-flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.my-account .inputs-flex div {
+    width: 50%;
+}
+ 
+.my-account .acc-form input {
+    width: 380;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #e4e2e2;
+    font-size: 20px;
+    margin-bottom: 72px;
+}
+
+.my-account .inputs-flex div input {
+    width: 94%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #e4e2e2;
+    font-size: 20px;
+}
+
+.my-account .lee {
+    padding-left: 50px;
+
+}
+
+.my-account .acc-form button {
+    display: block;
+    margin-top: -20px;
+    width: 140px;
+    height: 50px;
+    border: none;
+    background-color: #000;
+    font-size: 25px;
+    border-radius: 25px;
+}
+
+.my-account .acc-form button a {
+    color: #fff !important;
+    text-decoration: none;
+    font-family: MediumHellix;
+}
+
+.account-footer {
+    width: 100%;
+    height: 260px;
+    position: absolute;
+}
+
+.my-account .Taps {
+    position: relative;
+}
+
+.my-account .tabs {
+    position: absolute;
+    width: 100%;
+    /* height: 60px; */
+    margin-right: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #fff;
+    border-radius: 34px;
+    position: relative;
+    cursor: pointer;
+}
+
+@media(max-width:1800px) {
+    .my-account .acc-form {
+        padding-left: 40px;
+        width: calc(100% - 260px);
+    }
+
+    .my-account .prg {
+        font-size: 16px !important;
+        width: 260px;
+    }
+
+    .my-account .lee {
+        padding-left: 0px;
+    }
+
+    .my-account .account-right {
+        width: 75%
+    }
+
+    .my-account .account-content,
+    .my-account .account-right,
+    .my-account .account-left {
+        height: 120vh;
+    }
+}
+
+@media(max-width:1590px) {
+    .my-account .account-left h5 {
+        font-size: 40px;
+    }
+
+    .my-account .tab {
+        font-size: 18px;
+    }
+
+    .my-account .acc-form input {
+        margin-bottom: 20px;
+    }
+
+    .my-account .inputs-flex {
+        flex-direction: column;
+    }
+
+    .my-account .inputs-flex div {
+        width: 80%;
+    }
+
+    .my-account .acc-form input {
+        width: 74.5%;
+    }
+
+    .my-account .acc-form button {
+        margin-top: 20px;
+    }
+
+    .my-account .tab {
+        width: 50%;
+    }
+}
+
+@media(max-width:1200px) {
+    .my-account .tab {
+        width: 70%;
+    }
+
+    .my-account .account-left h5,
+    .my-account .title2 {
+        font-size: 35px;
+    }
+
+    .my-account .acc-form {
+        padding-left: 0px;
+        width: calc(100% - 260px);
+    }
+
+    .my-account .prg {
+        font-size: 16px !important;
+        width: 200px;
+    }
+
+    .my-account .acc-form {
+        padding-left: 30px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media(max-width:990px) {
+    .my-account .account-left {
+        width: 30%;
+    }
+
+    .my-account .account-right {
+        width: 70%;
+    }
+
+    .my-account .prg {
+        font-size: 18px !important;
+        width: 90%;
+        line-height: 1.5px;
+    }
+
+    .my-account .acc-form {
+        padding-left: 30px;
+        width: 100%;
+    }
+
+    .account-right {
+        height: 100vh;
+    }
+    .account-right, .my-account .account-left,.my-account .account-content {
+        height: 95vh;
+    }
+}
+@media(width:768px){
+    .account-right, .my-account .account-left, .my-account .account-content {
+        height: 100vh;
+    }
+}
+@media(max-width:767px) {
+    .my-account .account-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-account .account-left {
+        width: 100%;
+        height: 28vh;
+    }
+
+    .my-account .account-left h5 {
+        margin-top: 40px;
+    }
+    .my-account .account-right {
+        width: 100%;
+        position: absolute;
+        top: 28vh;
+    }
+    .my-account .title2 {
+     margin-top: 25px;
+     margin-bottom: 5px;
+     word-spacing: -5px;
+    }
+    .my-account .inputs-flex div input {
+        width: 100%;
+    }
+    .my-account .acc-form input {
+        width: 79.5%;
+    }
+    .my-account .account-content{
+        min-height: 160vh;
+    }
+    .my-account .acc-form{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .my-account .tabs {
+      
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .my-account .tab{
+        width: max-content;
+        padding: 5px;
+    }
+    .my-account .account-left h5 {
+        margin-top: 15px;
+    }
+    .my-account .tabs {
+        padding-top: 25px;
+    }
+    .my-account .content {
+        text-align: start;
+        padding-left: 35px;
+    }
+    .my-account .account-content {
+        min-height: 130vh;
+    }
+}
+@media(max-width:393px){
+    .my-account .account-content {
+        min-height: 140vh;
+    }
+}
+@media(max-width:375px){
+    .my-account .account-left {
+        width: 100%;
+        height: 40vh;
+    }
+    .my-account .account-right {
+        width: 100%;
+        position: absolute;
+        top: 35vh;
+    }
+    .my-account .account-content {
+        min-height: 175vh;
+    }
+    
+}

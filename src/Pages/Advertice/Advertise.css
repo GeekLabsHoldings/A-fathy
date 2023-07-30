@@ -1,0 +1,331 @@
+@font-face {
+
+    font-family: Hellix;
+    src: url(../../../font/Hellix-Bold.ttf);
+}
+
+@font-face {
+
+    font-family: semiHellix;
+    src: url(../../../font/Hellix-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Hellix-regular;
+    src: url(../../../font/Hellix-Regular.ttf);
+}
+
+.advertise {
+    position: relative;
+    width: 99%;
+    margin: auto;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.abs-img {
+    position: absolute;
+    right: 109px;
+    top: 250px;
+    transform: scale(1.4);
+}
+
+.ad-with-us {
+    width: 50%;
+    padding-left: 94px;
+    text-align: start;
+}
+
+.ad-with-us h2,
+.benfits h2,
+.adv-form h2 {
+    font-size: 60px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    padding-top: 195px;
+    font-weight: 600;
+    font-family: Hellix;
+}
+
+.adv-form h2 {
+    line-height: 1;
+    letter-spacing: -1.5px;
+    word-spacing: -3px;
+    margin-top: 105px !important;
+    margin-bottom: 50px;
+}
+
+.ad-with-us p,
+.benfits p {
+    width: 75%;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Hellix-regular;
+
+}
+
+.benfits {
+    width: 50%;
+    padding-left: 94px;
+    text-align: start;
+}
+
+.adv-form {
+    width: 50%;
+    padding-left: 94px;
+    text-align: start;
+}
+
+.la-in label,
+.la-in button {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Hellix-regular;
+    margin-bottom: -10px;
+}
+
+.la-in input {
+    width: 530px;
+    background-color: #000;
+    border: 3px solid #fff;
+    color: #fff;
+    padding-left: 20px !important;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 15px 0;
+    margin: 30px 0;
+    margin-left: 0px;
+}
+
+.ch-in {
+    height: 474px;
+    width: 826px !important;
+    border-radius: 32px !important;
+    text-align: start;
+}
+
+.la-in button {
+    width: 258PX;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: #D8FF60;
+    padding: 20PX 0;
+    font-weight: 600;
+    margin-left: 0px;
+}
+
+.la-in button:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.la-in {
+    padding-bottom: 20px;
+}
+
+.adv-footer {
+    width: 99%;
+    margin: auto;
+    height: 260px;
+    position: relative;
+}
+@media(max-width:1800px) {
+    .abs-img {
+       transform: scale(.98);
+       right: -5px;
+       top: 100px;
+    }
+
+   
+}
+
+@media(max-width:1550px) {
+   
+    .ad-with-us p,
+    .benfits p {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+@media(max-width:1150px) {
+    .ad-with-us h2 {
+        font-size: 50px;
+    }
+
+    .ad-with-us p {
+        font-size: 18px;
+    }
+
+    .ad-with-us h2,
+    .benfits h2,
+    .adv-form h2 {
+        font-size: 52px;
+
+        padding-top: 69px;
+    }
+
+    .adv-form {
+        width: 100%;
+        padding-left: 94px;
+        text-align: start;
+    }
+
+    .ch-in {
+        height: 474px;
+        width: 90% !important;
+        border-radius: 20px !important;
+        text-align: start;
+    }
+
+    .ad-with-us {
+        width: 60%;
+    }
+
+    .abs-img {
+        width: 350px;
+        top: 50px;
+    }
+
+    .benfits {
+        width: 60%;
+    }
+
+    .ad-with-us p,
+    .benfits p {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+@media(max-width:990px) {
+    .abs-img {
+        width: 300px;
+        top: 40px;
+        transform: scale(.9);
+        right: -14px;
+    }
+
+    .ad-with-us p,
+    .benfits p {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .ad-with-us h2,
+    .benfits h2,
+    .adv-form h2 {
+        font-size: 44px;
+
+        padding-top: 69px;
+    }
+}
+
+@media(max-width:767px) {
+    .la-in input {
+
+        margin-left: 0px;
+    }
+
+    .abs-img {
+        width: 200px;
+        top: 40px;
+    }
+
+    .ad-with-us {
+        width: 65%;
+        padding-left: 28px;
+    }
+
+    .benfits {
+        width: 65%;
+        padding-left: 28px;
+        text-align: start;
+    }
+
+    .ch-in {
+        height: 382px
+    }
+
+    .adv-form {
+        width: 100%;
+        padding-left: 28px;
+        text-align: start;
+    }
+
+    .la-in input {
+        width: 80%;
+        background-color: #000;
+        border: 2px solid #fff;
+    }
+}
+
+@media(max-width:440px) {
+    .abs-img {
+        width: 150px;
+        top: 50px;
+        right: -7px;
+        transform: scale(.9);
+    }
+
+    .la-in input {
+
+        padding: 10px 0;
+        margin: 20px 0;
+        margin-left: 0px;
+    }
+
+    .la-in button {
+        width: 90%;
+        margin: 20px 0;
+        padding: 10px 0;
+    }
+
+    .ad-with-us {
+        width: 65%;
+        padding-left: 20px;
+    }
+
+    .benfits {
+        width: 65%;
+        padding-left: 28px;
+        text-align: start;
+    }
+
+    .ch-in {
+        height: 382px
+    }
+
+    .adv-form {
+        width: 100%;
+        padding-left: 28px;
+        text-align: start;
+    }
+
+    .la-in input {
+        width: 80%;
+        background-color: #000;
+        border: 2px solid #fff;
+    }
+
+    .ad-with-us h2,
+    .benfits h2,
+    .adv-form h2 {
+        font-size: 34px;
+        padding-top: 21px;
+    }
+
+    .ad-with-us p,
+    .benfits p {
+        font-weight: 300;
+    }
+}

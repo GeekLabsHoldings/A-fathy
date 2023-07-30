@@ -1,0 +1,483 @@
+.AppleIcc{
+    position: relative;
+    width: 99%;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.AppleIcc-content{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    border-right:8px solid #000;
+    border-left:8px solid #000;
+    overflow: hidden;
+}
+.AppleIcc-reviews{
+    position: relative;
+    height: 720px;
+    background-color: #fff;
+    text-align: start;
+    padding-left: 75px;
+    padding-top: 55px;
+}
+.AppleIcc-reviews img{
+    width: 170PX;
+   height: 170PX;
+   border-radius: 50%;
+}
+.AppleIcc-reviews h5{
+    font-size: 40px;
+    font-weight: 40px;
+    margin: 0;
+}
+.AppleIcc-reviews .App-p1{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.AppleIcc-reviews .App-p2{
+    width: 40%;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+    padding-top: 15px;
+}
+/* App-num */
+.AppleIcc .App-num{
+    width: 55%;
+    display: flex;
+   position: relative;
+    margin-top: 50px;
+}
+.AppleIcc .AppleIcc-reviews .border{
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 150px);
+    height: 1.5px;
+    background-color: #000;
+    margin: auto;
+}
+.AppleIcc .App-num .num1 h5,
+.AppleIcc .App-num .num2 h5{
+    font-size: 80px;
+    letter-spacing: -5px;
+    margin: 0;
+    margin-bottom: 0;
+}
+.AppleIcc .App-num .num2{
+    padding-left: 20px;
+}
+.AppleIcc .App-num .num1 h5 span,
+.AppleIcc .App-num .num2 h5 span{
+    font-size: 40px;
+    letter-spacing: -1px;
+    margin-left: -10px;
+    color: red;
+}
+.AppleIcc .App-num .num1 p,
+.AppleIcc .App-num .num2 p{
+    margin-top: 0;
+    font-size: 20px;
+}
+.AppleIcc .App-num .num2 p{
+    padding-left: 20px;
+}
+
+/* Tabs */
+.AppleIcc .AppleIcc .AppleIcc-content .Tabs{
+    width: 80%;
+    height: 70px;
+    margin-left: 75px;
+    display: flex !important; 
+    z-index: 99999;
+    margin-top: 15px;
+}
+.AppleIcc .AppleIcc .AppleIcc-content .Tabs .tab{
+    width:180px;
+    /* padding-right: 50px !important; */
+    float: left;
+    background-color: #000;
+    margin-right: 10px;
+    text-align: center !important;
+    border-radius: 34px;
+    font-size: 18px !important;
+    font-weight: 100 !important;
+
+}
+.AppleIcc .AppleIcc .AppleIcc-content .Tabs .tabs .tab:disabled{
+    background-color: #6C40E4;
+}
+.AppleIcc .tabs-par{
+    width: 100%;
+    height: 170vh ;
+    background-color:#fff;
+    color: #6C40E4 !important;
+}
+.content-container{
+    width: 100%;
+    height: 140vh;
+}
+.Acc-footer{
+    width: 100%;
+    height: 260px;
+    position: absolute;
+}
+.top-chart canvas{
+    width: 100% !important;
+    height: 700px !important;
+}
+@media(max-width:1700px){
+    .AppleIcc .App-num {
+        width: 65%;
+    }
+    .AppleIcc-reviews {
+        position: relative;
+        height: 770px;
+    }
+}
+@media(max-width:1500px){
+    .AppleIcc .App-num {
+        width: 85%;
+    }
+    .AppleIcc-reviews .App-p2 {
+        width: 70%;
+    }
+    .AppleIcc-reviews {
+        position: relative;
+        height: 700px;
+    }
+    .AppleIcc .active-content {
+        width: 80% !important;
+    }
+    .AppleIcc .tabs-par {
+        width: 100%;
+        height: 230vh;
+        background-color: #fff;
+        color: #6C40E4 !important;
+    }
+}
+@media(max-width:1250px){
+    .AppleIcc .App-num .num1 h5, .AppleIcc .App-num .num2 h5 {
+        font-size: 60px;
+    }
+    .AppleIcc .App-num .num1 h5 span, .AppleIcc .App-num .num2 h5 span {
+        margin-left: 8px;
+        color: red;
+    }
+    .AppleIcc .sum-left-one,.AppleIcc .sum-left-two,.AppleIcc .sum-left-three {
+        width: 95%;
+    }
+    .div1 .ppp1 {
+        padding-top: 30px;
+        font-size: 25px;
+    }
+    .AppleIcc .sum-right {
+        width: 260px;
+        height: 780px;
+        position: absolute;
+        right: 45px;
+        top: 0;
+        background-color: #efefef;
+        margin-left: 15px;
+        border-radius: 44px;
+        text-align: center;
+        color: #000;
+    }
+    .AppleIcc .sum-right .right2 {
+        font-size: 45px;
+        font-weight: 500;
+        padding-top: 225px;
+    }
+    .AppleIcc .top-chart {
+        width: 91%;
+        position: relative;
+        margin-top: 100px;
+    }
+}
+@media(max-width:1200px){
+    .AppleIcc .sum-right {
+        right: 0px;
+       
+    }
+    .AppleIcc .sum-left-one, .AppleIcc .sum-left-two, .AppleIcc .sum-left-three {
+        width: 100%;
+    }
+    .AppleIcc .div1 .ppp1 {
+        padding-top: 30px;
+        font-size: 25px;
+        font-weight: 400;
+        color: #000;
+    }
+}
+@media(max-width:1050px){
+    .AppleIcc-reviews .App-p2 {
+        width: 80%;
+    }
+    .AppleIcc .App-num {
+        width: 95%;
+    }
+    .AppleIcc .sum-right {
+        right: 50px !important;
+        width: 200px !important;
+    }
+    .chartjs canvas {
+        height: 100vh !important;
+    }
+
+}
+@media(width:820px){
+    .top-chart canvas{
+        height: 450px !important;
+    }
+}
+@media(max-width:990px){
+    
+    .AppleIcc-reviews {
+        padding-left:15px;
+        padding-top: 55px;
+    }
+    .AppleIcc .container {
+        width: 100%;
+        margin-left: 15px !important;
+    }
+    .AppleIcc .App-num .num1 h5, .AppleIcc .App-num .num2 h5 {
+        font-size: 40px;
+        letter-spacing: -1px;
+    }
+    .AppleIcc .AppleIcc-reviews .border {
+        position: absolute;
+        bottom: 0;
+        width: 93%;
+        height: 1.5px;
+        background-color: #000;
+        margin: auto;
+    }
+    .AppleIcc .App-num {
+        margin-top: 30px;
+    }
+    .AppleIcc .sum-right {
+        right: -19px !important;
+        width: 110px !important;
+    }
+    .AppleIcc .sum-right .right2 {
+        font-size: 30px;
+        font-weight: 500;
+        padding-top: 225px;
+    }
+    .sum-right .right1 {
+        font-size: 27px;
+        font-weight: 400;
+        padding-top: 55px;
+    }
+    .AppleIcc .App-num .num1 h5 span, .AppleIcc .App-num .num2 h5 span {
+        font-size: 30px;    
+    }
+    .AppleIcc .tabs-par {
+        width: 100%;
+        height: 132vh;
+    }
+    .AppleIcc .top-chart {
+        margin-top: 30px;
+        width: 100% !important;
+    }
+    .AppleIcc .top-chart canvas{
+        width: 640px !important;
+        height: 320px !important;
+    }
+    .tabs {
+        width: 160px;
+        height: 50px;
+        margin-right: 4px;
+       
+    }
+    .sum-left {
+        width: calc(100% - 109px);
+        height: 780px;
+    }
+    .AppleIcc .div1 .ppp1 {
+        font-size: 20px;
+    }
+    .div1 .ppp2 ,.sum-right .right1,.AppleIcc .sum-right .right2{
+        font-size: 25px;
+    }
+        
+}
+@media(max-width:767px){
+    .AppleIcc-reviews img {
+        transform: scale(.7);
+        margin-left: -20px;
+    }
+    .AppleIcc-reviews h5 {
+        font-size: 35px;
+        margin-top: -15px;
+    }
+    
+    .AppleIcc-reviews {
+        padding-left: 30px;
+        padding-top:0px;
+    }
+    .AppleIcc-reviews .App-p1{
+        font-size: 18px;
+    }
+    .AppleIcc-reviews .App-p2 {
+        font-size: 17px;
+        width: 90%;
+    }
+    .AppleIcc .App-num .num1 h5 span, .AppleIcc .App-num .num2 h5 span {
+        font-size: 17px;
+    }
+    .AppleIcc .App-num .num1 h5, .AppleIcc .App-num .num2 h5 {
+        font-size: 20px;
+        letter-spacing: -1px;
+    }
+    .AppleIcc .App-num .num1 p, .AppleIcc .App-num .num2 p {
+        margin-top: 0;
+        font-size: 16px;
+        width: 140px;
+    }
+    .AppleIcc .App-num .num2 {
+        padding-left: 15px;
+    }
+    .tabs {
+        font-size: 17px;
+        width: 96px !important;
+        margin-bottom: 15px;
+    }
+    .AppleIcc .App-num .num2 p {
+        padding-left: 8px;
+    }
+    .AppleIcc.tabs {
+        font-size: 17px;
+        padding: 0 4px;
+    }
+    .tab-list {
+        height: 220px !important;
+        flex-wrap: wrap !important;
+    }
+    .content-container {
+        margin-top: 15px !important;
+    }
+    .left1, .left2, .left3 {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column !important;
+        gap: 20px;
+    } 
+    .AppleIcc .tabs-par {
+        width: 100%;
+        height: 490vh;
+    }
+    .AppleIcc .sum-left-one, .AppleIcc .sum-left-two, .AppleIcc .sum-left-three {
+        position: relative;
+        width: 100%;
+        height: 1000px;
+    }
+    .AppleIcc .sum-left-one, .AppleIcc .sum-left-two, .AppleIcc .sum-left-three {
+        position: relative;
+        width: 100%;
+        height: 1000px;
+        top: 330px;
+    }
+    .AppleIcc .sum-right {
+        right: 51px !important;
+        width: 300px !important;
+        height: 300px;
+        top: 0px;
+    }
+    .AppleIcc .sum-right .right2 {
+        font-size: 30px;
+        font-weight: 500;
+        padding-top: 92px;
+    }
+    .sum-left {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .AppleIcc .top-chart {
+        position: relative;
+        width: 100% !important;
+        top: 302px;
+    }
+    .AppleIcc .top-chart canvas {
+        width: 90% !important;
+        height: 513px !important;
+    }
+    .AppleIcc .sum-right {
+        right: 51px !important;
+        width: 90%!important;
+        height: 300px;
+        top: 0px;
+        left: -16px;
+    }
+}
+@media(max-width:400px){
+    .AppleIcc-reviews {
+        position: relative;
+        height: 818px;
+    }
+    .AppleIcc .AppleIcc-reviews .border {
+        position: absolute;
+        bottom: 0;
+        width: 88%;
+    }
+    .tabs {
+        width: 89px !important;
+    }
+    .AppleIcc .sum-right {
+        right: 51px !important;
+        width: 90%!important;
+        height: 300px;
+        top: 0px;
+        margin: auto;
+        left: 0%;
+    }
+    .AppleIcc .tabs-par {
+        width: 100%;
+        height: 630vh;
+    }
+}
+@media(max-width:390px){
+    .AppleIcc .tabs-par {
+        width: 100%;
+        height: 500vh;
+    }
+}
+@media(width:360px){
+    .tabs {
+        width: 84px !important;
+    }
+    .div1 {
+        width: 260px !important;
+    }
+}
+@media(width:375px){
+    .tabs {
+        width: 84px !important;
+    }
+}
+@media(width:540px){
+    .div1 {
+        width: 90%;
+
+    }
+    .sum-content {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        height: 1350px;
+        padding-left: 20px;
+    }
+    .AppleIcc .sum-right {
+        right: 19px !important;
+        width: 87%!important;
+        height: 300px;
+        top: 0px;
+        left: 0px;
+    }
+    .AppleIcc .tabs-par {
+        width: 100%;
+        height: 600vh;
+    }
+}

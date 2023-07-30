@@ -1,0 +1,431 @@
+.navbar {
+  padding-bottom: 0 !important;
+  position: relative;
+  width: 99%;
+  margin: auto;
+  height: auto;
+  background-color: #000;
+  border-top-left-radius: 38px !important;
+  border-top-right-radius: 38px !important;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.navigation {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.nav-logo {
+  position: relative;
+  width: 24% !important;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo-img {
+  width: 208px;
+  height: 41px;
+}
+
+.brand-name {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.nav-r {
+  position: absolute;
+  width:76%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  box-sizing: border-box;
+}
+
+.nav-ull{
+  position: absolute;
+  width: 80% ;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.nav-right{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+
+}
+.navigation-menu {
+  margin-left: 0px;
+}
+
+
+.create-acc {
+  line-height: 26px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  background-color: #6C40EC;
+  margin-top: -10px !important;
+  cursor: pointer;
+  font-weight: 300 !important;
+}
+
+.create-acc a,
+.Login a {
+  font-weight: 400 !important;
+  font-size: 18px;
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+
+.navigation-menu li {
+  list-style-type: none;
+  margin-right:2rem;
+}
+
+.navigation-menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+
+  font-size: 20px;
+}
+.navigation-menu li a:hover{
+  background: #fff;
+  color: #000;
+  padding: 4px 15px;
+  border-radius: 20px;
+  transition:.2s all ease-in-out;
+  padding-bottom: 8px;
+  margin-top: -3px;
+}
+
+.hamburger {
+
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.hamburger:hover {
+  background-color: #6C40EC;
+}
+
+.footer .one img {
+  margin-left: 13%;
+}
+@media(max-width:1900px){
+  .nav-right {
+width: 25%;
+  }
+  .nav-ull {
+    position: absolute;
+    width: 75%;
+  }
+}
+@media(max-width:1560px) {
+  .navigation {
+    height: 100px;
+    padding-top: 15px;
+  }
+
+  .navigation-menu {
+
+    margin-left: 0;
+  }
+
+  .navigation-menu ul {
+    margin-bottom: 0;
+  }
+
+  .navigation-menu li {
+    margin: 0 0.6rem;
+  }
+
+  .nav-ul {
+    padding-top: 0;
+  }
+  .logo-img{
+    transform: scale(.9);
+  }
+}
+
+@media(max-width:1380px) {
+  
+  .nav-ull{
+    width: 72%;
+  }
+  .nav-right{
+    width: 28%;
+    padding-top: 5px;
+  }
+  .navigation-menu li a {
+   
+    font-size: 19px;
+}
+.navigation-menu li {
+  margin: 0 0.5rem;
+}
+
+}
+@media(max-width:1290px) {
+  
+  .nav-ull{
+    width: 72%;
+  }
+  .nav-right{
+    width: 28%;
+    padding-top: 5px;
+  }
+  .navigation-menu li a {
+   
+    font-size: 17px;
+}
+.navigation-menu li {
+  margin: 0;
+  width: max-content;
+  padding-right: 12px;
+}
+.logo-img{
+  transform: scale(.8);
+}
+}
+
+@media(max-width:1150px) {
+  .nav-ull{
+    width: 72%;
+  }
+  .nav-right{
+    width: 28%;
+    padding-top: 5px;
+  }
+  .navigation-menu li a {
+   
+    font-size: 16px;
+}
+.navigation-menu li {
+  margin: 0;
+  width: max-content;
+  padding-right: 10px;
+}
+.logo-img{
+  transform: scale(.8);
+}
+.login a{
+  margin-left: 15px;
+}
+.create-acc {
+padding: 8px;
+}
+.logo-img{
+  transform: scale(.7);
+}
+}
+.d-n{
+  display: none;
+}
+
+@media(max-width: 990px) {
+  .d-n{
+    display: block;
+  }
+  .ul-dn{
+    display: none !important;
+  }
+  .logo-img {
+    transform: scale(.75);
+    margin-top: -30px;
+  }
+
+  .left-2,
+  .left-1 {
+    height: 300px;
+  }
+
+  .caps-footer {
+    position: relative;
+  }
+
+  .hamburger {
+    height: 50px;
+    width: 50px;
+    top: 43%;
+    right: 60px;
+  }
+
+  .navigation-menu li a {
+    font-size: 20px;
+  }
+
+  .create-acc {
+    line-height: 44px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: transparent;
+    margin-top: 0px !important;
+    cursor: pointer;
+    font-weight: 300 !important;
+  }
+
+  .nav-logo {
+    width: 50%;
+  }
+
+  .nav-ul {
+    width: 50%;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navigation-menu ul {
+    display: none;
+  }
+
+  .navigation-menu ul {
+
+    position: absolute;
+    top: 60px;
+    left: 0;
+
+    flex-direction: column;
+
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+    border-top: 1px solid black;
+  }
+  .nav-ull {
+    width: 100%;
+}
+
+  .navigation-menu li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .create-acc {
+    padding: 0;
+  }
+
+  .navigation-menu li a {
+    color: black;
+    padding: 1rem 0;
+  }
+
+  /* .navigation-menu li:hover {
+    background-color: #6C40EC;
+    border-radius: 30px;
+  } */
+
+  .navigation-menu li:hover a {
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .navigation-menu ul {
+    display: none;
+  }
+
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+
+  .navigation-menu.expanded ul {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 99;
+    margin-top: 40px;
+    padding-bottom: 25px;
+  }
+
+  .logo-img {
+
+    margin-left: 10px;
+  }
+
+  .Login {
+    margin-left: 0 !important;
+  }
+  .nav-r {
+    position: absolute;
+    width: 100%;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    z-index: 99;
+    margin-top: 40px;
+    padding-bottom: 25px;
+}
+.navigation-menu li {
+  text-align: center;
+  margin-left: 0%;
+  width: 100%;
+  padding-right: 0;
+}
+}
+
+@media(max-width: 767px) {
+  .logo-img {
+    margin-left: 20px;
+  }
+
+  .hamburger {
+    right: 20px;
+  }
+
+  .footer .one img {
+    margin-left: 28%;
+  }
+
+  .logo-img {
+    transform: scale(.7);
+    margin-left: -27px;
+    margin-top: -25px;
+  }
+
+  .hamburger {
+    height: 40px;
+    width: 40px;
+  }
+}
+

@@ -1,0 +1,494 @@
+@font-face {
+    font-family: Hellix;
+    src: url(../../../font/Hellix-Bold.ttf);
+  }
+  @font-face {
+
+    font-family: MediumHellix;
+    src: url(../../../font/Hellix-Medium.ttf);
+}
+  @font-face {
+    font-family: Hellix-light;
+    src: url(../../../font/Hellix-Light.ttf);
+  }
+  @font-face {
+
+    font-family: semiHellix;
+    src: url(../../../font/Hellix-SemiBold.ttf);
+}
+@font-face {
+    font-family: Hellix-regular;
+    src: url(../../../font/Hellix-Regular.ttf);
+}
+.apdating{
+    position: relative;
+    width: 99%;
+    margin: auto;
+    
+}
+.apdating-content{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    border-right:8px solid #000;
+    border-left:8px solid #000;
+    padding-bottom: 100px;
+}
+.apdating-reviews{
+    width: 100%;
+    height: 363px;
+    background-color: #6C40E4;
+}
+.apdating-reviews img{
+    width: 375px;
+    height: 319px;
+    /* position: absolute;
+    left: 0; */
+}
+.apdating-reviews .ffrist{
+    position: absolute;
+    left: 0 !important;
+   
+}
+.apdating-reviews .ttwo{
+    position: absolute;
+    right: 0 !important;
+    
+}
+.apdating-reviews h5{
+    font-size: 55px;
+    font-weight: bold;
+    width: 530px;
+    margin: auto;
+    line-height: 1;
+    padding-top: 70px;
+    margin-bottom: 30px;
+    text-align: CENTER;
+    font-family: Hellix;
+    color: #fff;
+}
+.apdating-reviews p{
+    font-size: 18px;
+    font-weight: 300;
+    width: 538px;
+    margin: auto;
+    line-height: 1;
+    text-align: center;
+    font-family: Hellix-regular;
+    color: #fff;
+}
+.apdating .Tabs{
+    width:85%;
+    height: 70px;
+    margin: auto;
+    display: flex !important;
+    margin-top: -75px;
+    padding-left:21%;
+}
+.apdating .Tabs .tab{
+    width:120px;
+    /* padding-right: 50px !important; */
+    float: left;
+    background-color: #000;
+    margin-left: 10px;
+    text-align: center !important;
+    border-radius: 20px;
+    font-size: 20px !important;
+    font-weight: 100 !important;
+    color: #fff;
+    padding: 5px 15px;
+    font-family: semiHellix;
+    border: none;
+}
+.apdating .Tabs .tabs .tab:disabled{
+    background-color: #C7ED24;
+    color: #000;
+}
+.updating-content{
+    width: 100%;
+    height: 2890px;
+    position: relative;
+}
+.apdating-left{
+    width: 25%;
+    padding-top: 85px;
+    text-align: center;
+}
+.pict-one{
+    width: 376px;
+    height:240px;
+    background-color: #000;
+    border-radius: 37px;
+    border:none !important;
+    
+}
+.div-one{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.div-one p{
+    font-size: 20px;
+    width: 350px;
+    margin-top: 5px;
+    padding-left: 0px;
+    line-height: 1;
+    width: 100%;
+    text-align: center;
+    padding: 0 50px;
+    font-family: Hellix-regular;
+}
+.apdating-right{
+    width: 25%;
+    padding-top: 85px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.apdating-middle{
+    position: absolute;
+    left: 25%;
+    top: 0;
+    width: 50%;
+    padding-top: 85px;
+}
+.content-middle{
+    width: 100%;
+    margin: auto;
+}
+.content-middle .middle-pic img,
+.middle-pic2 img,
+.middle-pic3 img{
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+    border: none;
+    border-radius: 37px;
+    border:none !important;
+}
+.middle-p1{
+    font-size: 55px;
+    word-spacing: -12px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    font-family: Hellix;
+}
+.middle-pic2 img,
+.middle-pic3 img{
+margin-top: 62px;
+}
+.middle-p2{
+    font-size: 18px;
+    text-align: center;
+    line-height: 1;
+    width: 80%;
+    margin: auto;
+    padding: 0 50px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    font-family: Hellix-regular;
+}
+.update-footer{
+    width: 100%;
+  height: 260px;
+  position: absolute;
+}
+@media(max-width:1800px){
+    .pict-one {
+        width: 90%;
+    }
+    .content-middle {
+        width: 95%;
+        margin: auto;
+    }
+    .middle-p1 {
+        font-size: 45px;
+        word-spacing: -2px;
+        text-align: center;
+    }
+}
+@media(max-width:1550px){
+    .content-middle .middle-pic img, .middle-pic2 img, .middle-pic3 img {
+        width: 100%;
+        height: 480px;
+    }
+    .middle-p1 {
+        font-size: 40px;
+    }
+    .pict-one {
+        width: 376px;
+        height: 190px;
+        width: 85%;
+    }
+}
+@media(max-width:1360px){
+    .apdating-reviews h5 {
+        font-size: 50px;
+    }
+    .middle-p1 {
+        font-size: 35px;
+    }
+    .pict-one {
+        width: 376px;
+        height: 190px;
+        width: 85%;
+    }
+    .apdating-reviews img {
+        width: 310px;
+        height: 260px;
+    }
+}
+@media(max-width:1200px){
+    .middle-p1 {
+        font-size: 28px;
+    }
+    .apdating-left,
+    .apdating-middle,
+    .apdating-right{
+        padding-top: 10px;
+    }
+    .content-middle .middle-pic img, .middle-pic2 img, .middle-pic3 img {
+        width: 100%;
+        height: 400px;
+    }
+    .pict-one {
+        width: 376px;
+        height: 150px;
+        width: 85%;
+    }
+    .middle-p2 {
+        font-size: 18px;
+        padding: 0 0 028px;
+        text-align: start;
+    }
+    .apdating-reviews img {
+        width: 230px;
+        height: 180px;
+    }
+    .apdating-reviews h5 {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+    .apdating-reviews p{
+        padding-left: 20px;
+    }
+}
+@media(max-width:990px){
+    .apdating-reviews h5 {
+        width: 45%;
+        margin: auto;
+    }
+    .apdating-reviews p {
+        width: 44%;
+    }
+    .div-one p {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 5px;
+        padding-left: 0px;
+        line-height: 1;
+        width: 100%;
+        text-align: start !important;
+        padding: 0 20px 0 28px;
+       
+    }
+    .middle-p1 {
+        font-size: 24px;
+    }
+    .middle-p2 {
+        font-size: 16px;
+        padding: 0 0 0 28px;
+        text-align: start;
+        width: 98%;
+        text-align: center;
+    }
+    .updating-content {
+        height: auto;
+
+    }
+    .apdating-left{
+        height: 50vh;
+        margin-bottom: 50px;
+
+    }
+    .div-one p {
+        font-size: 14px;
+    }
+    .apdating-middle {
+        position: absolute;
+        left: 25%;
+        top: 0;
+        width: 50%;
+        height: 60vh;
+        overflow: scroll;
+
+        scroll-snap-align: 5px;
+        padding-bottom: 100px;
+    }
+    .content-middle .middle-pic img, .middle-pic2 img, .middle-pic3 img {
+        width: 100%;
+        height: 386px;
+    }
+    .middle-p1 {
+        font-size: 22px;
+    }
+    /* .apdating .Tabs {
+        width: 100%;
+        height: 70px;
+        margin: auto;
+        display: flex !important;
+        margin-top: -98px;
+        padding-left: 4%;
+        margin-bottom: 40px;
+    }
+    .tabs {
+        width: 100% ;
+        height: 60px;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .apdating .Tabs .tab {
+        width: 22%;
+        padding: 5px 8px;
+        margin-bottom: 15px;
+    } */
+    .apdating .Tabs {
+        padding-left: 14%;
+    }
+    .middle-p2 {
+        font-size: 18px;
+        padding: 0 0 0 0px;
+        text-align: start;
+        width: 98%;
+        text-align: center;
+        width: 96%;
+    }
+    .div-one p {
+        font-size: 18px;
+        width: 95%;
+        margin: auto;
+        padding: 0 10px;
+        text-align: center !important;
+    }
+}
+@media(max-width:767px){
+   
+    /* .apdating .Tabs .tab {
+    width: max-content;
+    padding: 5px 8px;
+    }
+    .apdating .Tabs{
+        padding-top: 50px;
+     
+    }
+    .apdating .Tabs {
+        width: 100%;
+        padding-left: 0px;
+        margin-left: 5% !important;
+    } */
+    .apdating-content{
+        overflow: hidden;
+    }
+    /* .apdating .Tabs {
+        width: 90%;
+        margin-left: 20%; 
+        height: auto;
+        padding-bottom: 20px;
+        display: flex !important;
+        margin-top: 0px;
+        padding-left: 10%;
+        text-align: start;
+        background-color: red;
+    }
+    .apdating .tabs {
+        width: 80%;
+        background-color: #C7ED24;
+        height: 60px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        color: #fff;
+        border-radius: 34px;
+        position: relative;
+        cursor: pointer;
+        flex-wrap: wrap;
+        padding-left: 45%;
+    } */
+    .apdating .tabs{
+        width: 100% !important;
+        background: none !important;
+        padding-left: 2%;
+    }
+    .apdating-reviews {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .Tabs .tab {
+        margin-bottom: 5px;
+        width: 110px !important;
+    }
+    .apdating .Tabs {
+        width: 100%;
+        padding-left: 0px;
+        margin-left: 0%;
+        height: 150px;
+        justify-content: start;
+        margin-top: 10px;
+    }
+    .apdating-reviews img {
+        width: 230px;
+        height: 180px;
+        transform: scale(.5);
+    }
+    .apdating-reviews .ttwo {
+        position: absolute;
+        right: -60px !important;
+        top: -40px;
+    }
+    .apdating-reviews .ffrist {
+        position: absolute;
+        left: -60px !important;
+        top: -40px;
+    }
+    .apdating-reviews h5 {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .apdating-reviews p {
+        padding-left: 1px;
+        padding-top: 5px;
+    }
+    .apdating-reviews p {
+        font-size: 16px;
+    }
+    
+    .apdating-left,
+    .apdating-right{
+        visibility: hidden;
+        height: 150vh;
+    }
+    .apdating-content{
+        padding-bottom: 30px;
+    }
+    .apdating-middle{
+        width: 90%;
+        left: 5%;
+        height: 150vh;
+        overflow: auto;
+        padding-top: 20px;
+    }
+    .middle-p1 {
+        font-size: 18px;
+    }
+    .apdating-reviews p {
+        width: 69%;
+        padding-top: 10px;
+    }
+    
+}

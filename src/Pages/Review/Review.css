@@ -1,0 +1,392 @@
+.review {
+    position: relative;
+    width: 99%;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.review .account-content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.review .account-left {
+    width: 490px;
+    height: 100vh;
+    float: left;
+    background-color: #EAE8E8;
+    color: #fff;
+}
+
+.review .account-left h5 {
+    margin-top: 84px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    word-spacing: -3px;
+    color: #000;
+    text-align: center;
+}
+
+.review .account-left p {
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    font-size: 66px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+/* .review .tabs{
+    padding-top: 50px;
+} */
+.review .tab {
+    display: block;
+    width: 296px;
+    height: 127px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 10px;
+    color: #000;
+    border: none;
+    border-radius: 17px;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 15px 50px;
+}
+
+.review .account-left button:disabled {
+    background-color: #5A45EF;
+    color: #fff;
+}
+
+.review .account-right {
+    width: calc(100% - 490px);
+    float: left;
+    background-color: #fff;
+    height: 100vh;
+    overflow: scroll;
+    background-color: #EAE8E8;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
+.review .content {
+    text-align: start;
+    padding-left: 0px;
+    position: relative;
+}
+
+.review .content .sp {
+    position: absolute;
+    top: 95px;
+    font-size: 17px;
+}
+
+.review-content {
+    position: absolute;
+    top: 130px;
+    width: 1178px;
+    height: 1059px;
+    border-bottom: 5px solid #000;
+}
+
+/* .review .footer{
+    position: relative;
+} */
+.review .text-con {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.review .text-con h4 {
+    font-size: 43px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.review .text-con p {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.review .text-con2 {
+    position: absolute;
+    top: 1230px;
+}
+
+.review .text-con2 img {
+    width: 75%;
+}
+
+.review .text-con2 p {
+    font-size: 24px;
+    line-height: 1;
+    margin-top: 30px;
+    width: 70%;
+    text-align: center;
+    padding-left: 40px;
+    line-height: 1.2;
+}
+
+.rev-footer {
+    position: relative;
+    width: 99% !important;
+    height: 260px;
+    margin: auto;
+}
+
+@media(max-width:1800px) {
+
+    .review-content,
+    .review .text-con2 {
+
+        width: 95%;
+
+    }
+
+    .review-content img,
+    .review .text-con2 img {
+        width: 100%;
+    }
+
+    .review .text-con2 p {
+        width: 94%;
+    }
+}
+
+@media(max-width:1400px) {
+    .review .account-left {
+        width: 30%;
+    }
+
+    .review .account-right {
+        width: 70%;
+        float: none;
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media(max-width:1200px) {
+    .review .account-right {
+        padding-left: 0px;
+    }
+
+    .review .text-con h4 {
+        font-size: 33px;
+
+    }
+
+    .review .text-con p,
+    .review .text-con2 p {
+        font-size: 20px;
+    }
+
+    .review-content {
+        height: auto;
+        padding-bottom: 122px;
+    }
+
+    .review .text-con2 {
+        position: absolute;
+        top: 1080px;
+    }
+
+    .review .tab {
+
+        width: 274px;
+
+        font-size: 25px;
+        font-weight: 500;
+        padding: 15px 30px;
+    }
+}
+
+@media(max-width:990px) {
+    .review .tab {
+        width: 185px;
+        font-size: 23px;
+        font-weight: 500;
+        padding: 15px 15px;
+    }
+
+    .review .text-con {
+        padding-left: 15px;
+        padding-right: 50px;
+    }
+
+    .review .text-con h4 {
+        font-size: 27px;
+    }
+
+    .review .text-con p,
+    .review .text-con2 p {
+        font-size: 18px;
+    }
+
+    .review-content {
+        height: auto;
+        padding-bottom: 68px;
+    }
+
+    .review .tab {
+        font-size: 18px;
+    }
+
+    .review .text-con2 {
+        position: absolute;
+        top: 1025px;
+    }
+
+    .review .rev-footer {
+
+        top: 205vh;
+    }
+
+    /* .review .account-content{
+        height: auto;
+    }
+    .review .account-left {
+        width: 30%;
+        height: 225vh;
+    }
+    .review .account-right {
+       
+        height: 225vh;
+    } */
+}
+
+@media(max-width:767px) {
+    .review .text-con2 p {
+        width: 93;
+        padding-left: 0;
+        
+    }
+
+    .review .account-content {
+        display: flex;
+    }
+
+    .review .account-left {
+        width: 100%;
+        padding-left: 20px;
+        height: 38vh;
+    }
+
+    .review .account-left h5 {
+        text-align: start;
+        word-spacing: -2px;
+    }
+
+    .review .account-right {
+        position: absolute;
+        top: 38vh;
+    }
+
+    .tabs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .review .tab {
+        width: 43%;
+    }
+
+    .review .tab {
+        height: 90px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .review .account-left h5 {
+        margin-top: 20px;
+    }
+
+    .review .account-left h5 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .rev-r {
+        padding-left: 20px;
+    }
+
+    .review .content .sp {
+        top: 5px;
+    }
+
+    .review-content {
+        position: absolute;
+        top: 40px;
+    }
+
+    .review .text-con h4 {
+        font-size: 22px;
+        margin-top: 25px;
+        margin-bottom: 19px;
+    }
+
+    .review .text-con p,
+    .review .text-con2 p {
+        font-size: 14px;
+    }
+
+    .review-content {
+        height: auto;
+        padding-bottom: 0px;
+        width: 90%;
+    }
+
+    .review .account-right {
+        width: 100%;
+    }
+
+    .review .text-con2 {
+        position: absolute;
+        top: 653px;
+        padding-top: 20px;
+    }
+
+    .review-content img,
+    .review .text-con2 img {
+        width: 93%;
+    }
+
+    .review{
+        height: 138vh;
+    }
+    .review .account-left {
+        padding-left: 5px;
+    }
+    .review .account-left h5{
+        padding-left: 10px;
+    }
+    /* .review .account-right {
+        height: 252vh;
+    } */
+}
+@media(width:375px){
+    .review .account-left {
+        padding-left: 20px;
+        height: 48vh;
+    }
+    .review .account-right {
+        top: 47vh;
+    }
+    .review .account-left {
+        padding-left: 5px;
+    }
+    .review .account-left h5{
+        padding-left: 10px;
+    }
+}

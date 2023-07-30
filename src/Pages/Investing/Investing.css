@@ -1,0 +1,470 @@
+@font-face {
+    font-family: Hellix;
+    src: url(../../../font/Hellix-Bold.ttf);
+}
+
+@font-face {
+
+    font-family: MediumHellix;
+    src: url(../../../font/Hellix-Medium.ttf);
+}
+
+@font-face {
+    font-family: Hellix-light;
+    src: url(../../../font/Hellix-Light.ttf);
+}
+
+@font-face {
+
+    font-family: semiHellix;
+    src: url(../../../font/Hellix-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Hellix-regular;
+    src: url(../../../font/Hellix-Regular.ttf);
+}
+
+.investing {
+    position: relative;
+    width: 99%;
+    margin: auto;
+}
+
+.Invest-content {
+    width: 100%;
+    height: 2000px;
+    background-color: #000;
+}
+
+.invest-first {
+    position: relative;
+}
+
+.invest-first img {
+    width: 100%;
+    height: 455px;
+}
+
+.invest-first .first-text {
+    position: absolute;
+    top: 0;
+    width: 45%;
+    height: auto;
+    padding-left: 190px;
+}
+
+.invest-first .first-text h5 {
+    font-size: 60px;
+    margin: 20px 0;
+    line-height: 1;
+    width: 82% !important;
+    padding-top: 70px;
+    text-align: start;
+    color: #fff;
+    font-family: Hellix;
+
+}
+
+.invest-first .first-text p {
+    font-size: 30px;
+    line-height: 1;
+    width: 90%;
+    font-weight: 400;
+    color: #fff;
+    text-align: start;
+    font-family: Hellix-regular;
+}
+
+.invest-first span {
+    position: absolute;
+    bottom: 43px;
+    right: 180px;
+    font-size: 84px;
+    color: #C6ED24;
+    font-family: Hellix;
+}
+
+.flex-two {
+    position: relative;
+    margin-top: 0 !important;
+    width: 81%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-two .fl img {
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+
+.flex-two .fl {
+    display: flex;
+    align-items: center;
+}
+
+.flex-two .fl p {
+    font-size: 18px;
+    color: #fff;
+    padding-top: 15PX;
+    font-family: Hellix-regular;
+}
+
+.flex-two .fl p span {
+    font-weight: bold;
+}
+
+.col {
+    color: rgb(255, 196, 0);
+
+}
+
+.m-l {
+    padding-left: 10px;
+}
+
+.invest-text {
+    text-align: start;
+    width: 100%;
+    height: 805px;
+    padding-top: 72px;
+}
+
+.invest-text .n-fl {
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+    margin-bottom: 50px;
+}
+
+.invest-text .n-fl span {
+    padding-right: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: -70px;
+}
+
+.invest-text .n-fl h3 {
+    font-size: 50px;
+    width: 31%;
+    margin-top: 0;
+    line-height: 1.1;
+    padding-top: 0px;
+    letter-spacing: .5px;
+    word-spacing: -3px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: Hellix;
+}
+
+.invest-text p {
+    padding-left: 180px;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: .5px;
+    word-spacing: -3px;
+    padding-right: 100px;
+    color: #fff;
+    font-family: Hellix-regular;
+    width: 65%;
+}
+
+.invest-text2 {
+    text-align: start;
+    width: 100%;
+}
+
+.invest-text2 .n-fl {
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+    margin-bottom: 50px;
+}
+
+.invest-text2 .n-fl span {
+    padding-right: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 19px;
+}
+
+.invest-text2 .n-fl h3 {
+    font-size: 50px;
+    width: 34%;
+    margin-top: 0;
+    line-height: 1.1;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    letter-spacing: .5px;
+    word-spacing: -3px;
+    color: #fff;
+}
+
+.invest-text2 p {
+    padding-left: 180px;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: .5px;
+    word-spacing: -3px;
+    padding-right: 100px;
+    color: #fff;
+    font-family: Hellix-regular;
+    width: 65%;
+}
+
+.invest-footer {
+    width: 100%;
+    height: 260px;
+    position: absolute;
+}
+@media(max-width:1950px) {
+    .invest-text p,.invest-text2 p {
+        width: 90%;
+    }
+    .invest-text .n-fl h3,.invest-text2 .n-fl h3 {
+        font-size: 50px;
+        width: 35%;
+    }
+    .invest-first .first-text h5 {
+        width: 95% !important;
+    }
+}
+@media(max-width:1800px) {
+    .invest-first .first-text {
+        width: 60%;
+    }
+    .invest-text .n-fl h3,.invest-text2 .n-fl h3 {
+        font-size: 50px;
+        width: 40%;
+    }
+}
+@media(max-width:1550px){
+    .invest-text p,.invest-text2 p {
+        width: 90%;
+        font-size: 25px;
+    }
+    .invest-text .n-fl h3,.invest-text2 .n-fl h3 {
+        font-size: 50px;
+        width: 45%;
+    }
+}
+@media(max-width:1400px){
+    .invest-first .first-text h5 {
+        width: 100% !important;
+    }
+}
+@media(max-width:1300px) {
+    .invest-first .first-text {
+        width: 60%;
+    }
+
+    .invest-first .first-text h5 {
+        font-size: 50px;
+    }
+
+    .invest-first .first-text p,
+    .invest-text p {
+        font-size: 24px;
+    }
+
+    .invest-text .n-fl h3,
+    .invest-text2 .n-fl h3 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .invest-first span {
+        font-size: 60px;
+    }
+
+    .invest-first .first-text {
+
+        padding-left: 90px;
+    }
+    .invest-text .n-fl h3, .invest-text2 .n-fl h3 {
+        font-size: 44px;
+        margin-bottom: 30px;
+        width: 60%;
+    }
+}
+
+@media(max-width:990px) {
+    .flex-two {
+        position: relative;
+        margin-top: 0 !important;
+        width: 90%;
+    }
+
+    .invest-text2 {
+        text-align: start;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .invest-first span {
+        right: 50px;
+    }
+
+    .invest-text .n-fl h3,
+    .invest-text2 .n-fl h3 {
+        font-size: 42PX;
+    }
+
+    .invest-text2 .n-fl span,
+    .invest-text .n-fl span {
+        margin-top: -50PX;
+    }
+    .invest-text p,.invest-text2 p {
+        width: 90%;
+        font-size: 23px;
+    }
+    .invest-first .first-text h5 {
+        width: 95% !important;
+    }
+    .invest-text .n-fl h3, .invest-text2 .n-fl h3 {
+        font-size: 50px;
+        margin-bottom: 0px;
+        width: 70%;
+    }
+    .invest-text2 {
+        text-align: start;
+        width: 100%;
+        margin-top: 0;
+    }
+    .invest-text2 .n-fl span, .invest-text .n-fl span {
+        margin-top: 0PX;
+        padding-right: 20px;
+    }
+    .invest-first .first-text h5 {
+        font-size: 42px;
+        width: 100%;
+    }
+    .invest-text .num-abs1{
+        margin-top: -63px !important;
+    }
+    .invest-text .n-fl,.invest-text2 .n-fl {
+        padding-left: 30px;
+    }
+    .invest-text p, .invest-text2 p {
+        width: 95%;
+        font-size: 23px;
+        padding-right: 0;
+        padding-left: 110px;
+    }
+}
+
+@media(max-width:767px) {
+    .invest-text .n-fl h3,.invest-text2 .n-fl h3 {
+        width: 70%;
+    }
+    .invest-text p,.invest-text2 p{
+        width: 100%;
+    }
+    .invest-text .n-fl,.invest-text2 .n-fl h3{
+        margin-bottom: 0;
+    }
+    .invest-text2 .n-fl span{
+        margin-top: 55px;
+    }
+    .invest-first .first-text h5 {
+        font-size: 27px;
+    }
+
+    .invest-first .first-text p,
+    .invest-text p {
+        font-size: 17px;
+    }
+
+    .investing .invest-first span {
+        font-size: 30px;
+        right: 37px;
+        bottom: 22px;
+    }
+
+    .invest-first img {
+        width: 100%;
+        height: 340px;
+    }
+
+    .flex-two .fl p {
+        font-size: 10px !important;
+        color: #fff;
+    }
+
+    .invest-first .first-text {
+        padding-left: 39px;
+    }
+
+    .flex-two {
+        position: relative;
+        margin-top: 0 !important;
+        width: 100%;
+        margin: auto;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0px 0 10px;
+    }
+
+
+    .invest-first .first-text {
+        width: 88%;
+    }
+
+    .invest-text .n-fl,
+    .invest-text2 .n-fl {
+        padding-left: 10px;
+    }
+
+    .invest-text .n-fl h3,
+    .invest-text2 .n-fl h3 {
+        font-size: 20px;
+    }
+
+    .invest-text p,
+    .invest-text2 p {
+        padding-left: 60px;
+        font-size: 20px;
+    }
+
+    .invest-text .n-fl span,
+    .invest-text2 .n-fl span {
+        padding-right: 13px;
+        font-size: 30px;
+    }
+
+    .invest-text2 {
+        margin-top: 150px;
+    }
+
+    .invest-text2 p {
+        padding-right: 20px;
+    }
+
+    .invest-text p {
+        padding-right: 20px;
+    }
+
+    .fl-four {
+        display: none;
+    }
+
+    .investing .flex-two .fl img {
+        margin-right: 0px;
+    }
+
+    .investing .fl-four p {
+        display: none;
+    }
+    .invest-text p, .invest-text2 p {
+       margin-top: -20px;
+    }
+    .invest-text .n-fl h3{
+        margin-bottom: 48px;
+    }
+}

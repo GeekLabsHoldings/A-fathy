@@ -1,0 +1,143 @@
+@font-face {
+
+    font-family: Hellix;
+    src: url(../../../font/Hellix-Bold.ttf);
+}
+
+@font-face {
+
+    font-family: MediumHellix;
+    src: url(../../../font/Hellix-Medium.ttf);
+}
+
+@font-face {
+    font-family: Hellix-regular;
+    src: url(../../../font/Hellix-Regular.ttf);
+}
+.MastHead {
+    position: relative;
+    top: 0px;
+    width: 99%;
+    margin: auto;
+    background-color: #000;
+    box-sizing: border-box;
+   padding-bottom: 200px;
+}
+
+.mast-head {
+    
+    padding-bottom: 20px;
+}
+
+.MastHead h4,
+.MastHead p {
+    color: #fff;
+}
+
+.MastHead h4 {
+    padding-top: 74px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40PX;
+    text-align: center;
+    font-family: Hellix-regular;
+}
+
+.MastHead p {
+    width: 57%;
+    margin: 20px auto;
+    font-size: 18PX;
+    font-weight: lighter;
+    font-family:Hellix-regular ;
+    text-align: center;
+}
+
+.names-div {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    background-color:000;
+}
+
+.name {
+    width: 20%;
+    height: 350px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.name-top {
+    width: 100%;
+    height: 50%;
+    background-color: #1A1A1A;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.name-bot {
+    width: 100%;
+    height: 50%;
+    background-color: #D0CECF;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.name h5 {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: MediumHellix;
+}
+
+.mast-footer {
+    width: 99%;
+    height: 260px;
+    margin: auto;
+}
+
+@media(max-width:1880px) {
+    .MastHead {
+        top: 0;
+
+    }
+
+}
+
+@media(max-width:990px) {
+    .mast-footer{
+        position: relative;
+    }
+    .MastHead p {
+        font-size: 15px;
+    }
+
+    .name {
+        width: 100%;
+        margin-top: 65px;
+        height: 350px;
+        border-radius: 30px;
+        margin: 40px auto;
+        margin-bottom: 100px;
+    }
+
+    .names-div {
+        display: block;
+        margin-top: 70px !important;
+        min-height: 2222px;
+    }
+
+    .name h5 {
+        margin-top: 5px;
+    }
+
+    /* .mast-footer {
+        width: 100%;
+        height: 260px;
+        position: absolute;
+        margin-top: -10px;
+    } */
+}

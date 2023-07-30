@@ -1,0 +1,414 @@
+@font-face {
+
+    font-family: Hellix;
+    src: url(../../../font/Hellix-Bold.ttf);
+}
+
+@font-face {
+
+    font-family: semiHellix;
+    src: url(../../../font/Hellix-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Hellix-regular;
+    src: url(../../../font/Hellix-Regular.ttf);
+}
+
+.contact {
+    position: relative;
+    width: 99%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    background-color: #EBE9E9;
+    /* margin-top: -22px; */
+    border-left: 8px solid #000;
+    border-right: 8px solid #000;
+    box-sizing: border-box;
+}
+
+.contact-flex {
+    position: relative;
+    display: flex;
+
+}
+
+.contact-left {
+    position: relative;
+    width: 55%;
+
+}
+
+.con-text {
+    position: relative;
+    width: 100%;
+    text-align: start;
+    padding-top: 170px;
+    padding-left: 120px;
+}
+
+.shape1 {
+    position: absolute;
+    left: 250px;
+    top: 155px;
+    width: 325px;
+    height: 325px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 0 !important;
+}
+
+.shape2 {
+    position: absolute;
+    left: 370px;
+    top: 85px;
+    width: 157px;
+    height: 157px;
+    background-color: #A86CFB;
+    border-radius: 50%;
+    z-index: 0 !important;
+}
+
+.shape3 {
+    position: absolute;
+    left: 347px;
+    top: 85px;
+    width: 67px;
+    height: 67px;
+    background-color: #000;
+    border-radius: 50%;
+    z-index: 0 !important;
+}
+
+.con-text h4,
+.con-text p {
+    position: relative;
+    z-index: 1;
+}
+
+.con-text h4 {
+    font-size: 70px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-bottom: 100px;
+    font-family: semiHellix;
+}
+
+.con-text p {
+    margin-top: -80px;
+    line-height: 1.2;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    font-family: Hellix-regular;
+}
+
+.con-divz {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 98px;
+}
+
+.phone,
+.email,
+.follow,
+.iconz {
+    width: 40% !important;
+    height: 100px;
+    background-color: #000;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: start;
+    border-radius: 40px;
+    padding-left: 40px;
+}
+
+.iconz {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.iconz img {
+    transform: scale(.8);
+}
+
+.ph,
+.em,
+.contact .fo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-bottom: 5px;
+    font-family: Hellix;
+}
+
+.contact .fo {
+    margin-top: 15px;
+    padding-bottom: 5px !important;
+}
+
+.bo {
+    margin-top: -25px;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: .9;
+    font-family: Hellix-regular;
+}
+
+/* rightside style */
+.contact-right {
+    position: relative;
+    right: 0;
+    /* height: 85vh; */
+    width: 45%;
+}
+
+.contact-right img {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: -122px;
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+}
+
+.abs1 {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: #A86CFB;
+    right: 160px;
+    top: 55px;
+}
+
+.abs2 {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: #000;
+    right: 200px;
+    top: 60px;
+}
+
+.contact-footer {
+    width: 99%;
+    height: 260px;
+    margin: auto;
+    position: relative;
+}
+
+.contact-footer .footer {
+    width: 100% !important;
+}
+
+@media(max-width:1800px) {
+
+    .phone,
+    .email,
+    .follow,
+    .iconz {
+        width: 46% !important;
+    }
+
+    .con-text {
+        padding-left: 100px;
+    }
+
+    .con-divz {
+        padding-left: 60px;
+        box-sizing: border-box;
+    }
+
+    .contact-right {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .con-text {
+
+        padding-top: 100px;
+    }
+
+    .contact .fo {
+        font-size: 24px;
+        padding: 0;
+        margin-top: 15px;
+    }
+
+}
+
+@media(max-width:1540px) {
+    .bo {
+        margin-top: -25px;
+        font-size: 16px;
+    }
+
+    .contact-right {
+        padding-top: 100px;
+    }
+}
+
+@media(max-width:1350px) {
+
+    .phone,
+    .email,
+    .follow,
+    .iconz {
+        width: 45% !important;
+    }
+
+    .bo {
+        margin-top: -25px;
+        font-size: 14px;
+    }
+
+    .con-text h4 {
+        font-size: 48px;
+    }
+
+    .phone,
+    .email,
+    .follow,
+    .iconz {
+        width: 45% !important;
+        padding-left: 15px;
+        height: 85px;
+    }
+
+    .con-text {
+        padding-left: 70px;
+    }
+
+    .con-divz {
+        position: relative;
+        padding-left: 30px;
+        box-sizing: border-box;
+        z-index: 99999999;
+    }
+
+    .contact-left {
+        position: relative;
+        width: 60%;
+    }
+
+    .contact-right {
+        position: relative;
+        width: 40%;
+    }
+}
+
+@media(max-width:990px) {
+
+    .contact-left {
+        position: relative;
+        width: 55%;
+    }
+
+    .contact-right {
+        position: relative;
+        width: 45%;
+    }
+
+    .con-text h4 {
+        font-size: 42px;
+    }
+
+    .con-text p {
+
+        font-size: 18px;
+
+    }
+
+    .phone,
+    .email,
+    .follow,
+    .iconz {
+        width: 65% !important;
+        padding-left: 15px;
+        height: 85px;
+    }
+}
+
+@media(max-width:767px) {
+    .contact-right img{
+        margin-left: 0;
+    }
+    .contact .fo {
+        font-size: 20px;
+    }
+
+    .contact {
+        padding-bottom: 30px;
+    }
+
+    .con-text {
+        padding-top: 44px;
+        padding-left: 34px;
+    }
+
+    .contact-flex {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-left {
+        position: relative;
+        width: 100%;
+    }
+
+    .contact-right {
+        position: relative;
+        width: 100%;
+    }
+
+    .con-text h4 {
+        font-size: 33px;
+    }
+
+    .con-text p {
+
+        font-size: 15px;
+
+    }
+
+    .con-divz {
+
+        padding-top: 0px;
+    }
+
+    .con-divz {
+        padding-left: 0;
+    }
+
+    .phone,
+    .email,
+    .follow,
+    .iconz {
+        width: 85% !important;
+        padding-left: 15px;
+        height: 85px;
+    }
+
+    .contact-right {
+        padding-top: 40px;
+    }
+
+    .phone,
+    .email,
+    .follow {
+        padding-left: 30px;
+    }
+}
